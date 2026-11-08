@@ -1,0 +1,13 @@
+{
+  "name": "cloud-pipeline-demo",
+  "version": "1.0.0",
+  "description": "A simple Node.js application for learning automated cloud deployment.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
