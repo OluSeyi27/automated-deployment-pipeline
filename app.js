@@ -14,6 +14,7 @@ export function createApp() {
           <body>
             <h1>Cloud Pipeline Demo</h1>
             <p>Our application is running successfully!</p>
+            <p>Deployment automated with GitHub Actions!</p>
             <p>Built with Node.js, Docker and GitHub Actions.</p>
           </body>
         </html>
