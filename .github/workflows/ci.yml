@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    name: Run Application Tests
+    name: Test and Build Docker Image
     runs-on: ubuntu-24.04
 
     steps:
@@ -24,3 +24,6 @@ jobs:
 
       - name: Run automated tests
         run: npm test
+
+      - name: Build Docker image
+        run: docker build -t cloud-pipeline-demo .
